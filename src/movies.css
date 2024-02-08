@@ -1,0 +1,63 @@
+.moviePoster {
+  height: 400px;
+  width: 250px;
+  transition: 0.5s;
+  position: relative;
+  top: -10px;
+  margin: 26px;
+}
+.deitails {
+  position: relative;
+  top: -280px;
+  width: 250px;
+  text-align: center;
+  align-items: center;
+  text-shadow: -2px 5px 0 #000;
+}
+.moviePoster:hover {
+  box-shadow: 5px 5px 10px #888888;
+  filter: blur(3px);
+}
+.movieTitle {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+  background-color: transparent;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+}
+
+.movieContainer:hover .deitails .movieTitle {
+  visibility: visible;
+}
+
+.moviesAmerican {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.moviesTurkish {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+.moviesArabic {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+.movieContainer {
+  height: 500px;
+  position: relative;
+  bottom: -50px;
+  width: 300px;
+}
